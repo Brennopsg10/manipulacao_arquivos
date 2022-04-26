@@ -4,7 +4,7 @@
 
 $arquivo = fopen('novos_cursos.txt', 'a');
 
-$curso = "\nLaravel 5.0";
+$curso = '\nLaravel 9.0';
 
 file_put_contents('novos_cursos.txt', $curso, FILE_APPEND);
 
